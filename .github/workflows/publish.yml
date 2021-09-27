@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: '12.x'
           registry-url: https://npm.pkg.github.com/
-          scope: '@owenscorning'
+          scope: '@gres'
       - run: yarn
       - run: yarn build
       - run: yarn publish

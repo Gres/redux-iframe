@@ -1,13 +1,16 @@
 {
-  "name": "@owenscorning/redux-iframe",
+  "name": "@gres/redux-iframe",
   "description": "Build stateful micro frontends by sharing Redux state and actions between iframe modules and container applications",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "license": "MIT",
   "keywords": [
     "redux",
     "iframe",
     "state"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "author": "torsten.schlieder@webfleet.com",
   "main": "dist/redux-iframe.cjs.js",
   "module": "dist/redux-iframe.esm.js",
