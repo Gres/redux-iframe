@@ -20,9 +20,7 @@
     "test": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} nyc mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
-  "files": [
-    "dist"
-  ],
+
   "nyc": {
     "all": true,
     "extension": [
